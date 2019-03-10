@@ -17,7 +17,7 @@ Which means that the payload differs on the remaining 17 bytes.
 
 The first unlock was done a couple of minutes before the next 3, which were done in a row.
 
-#Random observations
+# Random observations
 * The app does not seem to work without internet, as such it may even be getting the payload from a server.
 * Locks are named as EL_[SERIAL_NUMBER].
 * Setting up the lock in the app requires a QR code pointing to a URL: https://mp.yeeloc.com/add?data=NKmSfxkFYgqrrbwY
