@@ -16,3 +16,10 @@ Which means that the payload differs on the remaining 17 bytes.
 * `8502a0009011e29d3b60c7cad22d5f3119`
 
 The first unlock was done a couple of minutes before the next 3, which were done in a row.
+
+#Random observations
+* The app does not seem to work without internet, as such it may even be getting the payload from a server.
+* Locks are named as EL_[SERIAL_NUMBER].
+* Setting up the lock in the app requires a QR code pointing to a URL: https://mp.yeeloc.com/add?data=NKmSfxkFYgqrrbwY
+* The QR sticker also has a serial number on it: B0PUmFAH
+* It is unknown how these are connected. (My guess is that the url is somehow encoding the Serial number and is using it to find the lock).
