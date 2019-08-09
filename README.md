@@ -8,12 +8,19 @@ These are 4 different unlocks using the same phone and same lock.
 
 It seems like the first 3 bytes are always the same: `01505c`
 
-Which means that the payload differs on the remaining 17 bytes.
+As observed by sasicol, bytes 3,4,5,6 is a timestamp in epoch time:
 
-* `84ff2f0099cf13d74d5b246c38eb6cf702`
-* `85028d0085c9d5a63ea4da470ce50688c6`
-* `85029800f74dae629a1da681d98164a5c8`
-* `8502a0009011e29d3b60c7cad22d5f3119`
+* `5c84ff2f = 1552219951 = Sunday, March 10, 2019 12:12:31 PM`
+* `5c85028d = 1552220813`
+
+~~Which means that the payload differs on the remaining 17 bytes.~~
+
+With this new information we need to identify the last 14 bytes:
+
+* `0099cf13d74d5b246c38eb6cf702`
+* `0085c9d5a63ea4da470ce50688c6`
+* `00f74dae629a1da681d98164a5c8`
+* `009011e29d3b60c7cad22d5f3119`
 
 The first unlock was done a couple of minutes before the next 3, which were done in a row.
 
