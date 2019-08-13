@@ -22,6 +22,8 @@ With this new information we need to identify the last 14 bytes:
 * `00f74dae629a1da681d98164a5c8`
 * `009011e29d3b60c7cad22d5f3119`
 
+And maybe the first 2: `0150`
+
 The first unlock was done a couple of minutes before the next 3, which were done in a row.
 
 # Random observations
